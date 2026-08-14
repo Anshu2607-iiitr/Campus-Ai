@@ -1,16 +1,12 @@
-# Environment variables
+.venv/
+venv/
+backend/venv/
+
 .env
 *.env
 
-# Python
 __pycache__/
-*.py[cod]
-.venv/
+*.pyc
 
-# Node
 node_modules/
 .next/
-
-# Build
-dist/
-build/
