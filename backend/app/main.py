@@ -7,7 +7,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://campus-ai-10.onrender.com",
+        "https://campus-ai-11.onrender.com",
+         "https://campus-ai-10.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
